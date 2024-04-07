@@ -1,0 +1,379 @@
+﻿body {
+    font-family: 'Special Elite', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F3EFF5;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #6E0E0A;
+    display: flex;
+    justify-content: right;
+    padding: 1rem;
+    max-width: 100%;
+}
+
+.hamburger-menu {
+    display: flex;
+    justify-content: right;
+}
+
+    .hamburger-menu img {
+        width: 30px; /* Adjust as necessary for your layout */
+        cursor: pointer;
+        margin-right: 2rem;
+    }
+
+nav {
+}
+
+    nav ul {
+        display: none;
+        list-style: none;
+        gap: 20px;
+        background: #BB9457;
+        color: #6E0E0A;
+        padding: .5rem 1rem;
+        margin: 0;
+    }
+
+        nav ul.show {
+            display: flex; /* Or 'display: block;', depending on your design */
+        }
+
+        nav ul li a {
+            text-decoration: underline;
+            font-weight: bold;
+            color: #6E0E0A;
+        }
+
+            nav ul li a:hover {
+                color: #c31912;
+            }
+
+/* Specific styles for the donation page */
+.facts-div {
+    display: grid;
+    grid-template-areas: 'logo facts-sign' 'social-media facts-sign' 'social-media facts-text';
+    grid-template-columns: 20% 80%;
+    gap: 20px;
+    max-width: 100%;
+}
+
+    .facts-div img {
+        width: 80%;
+        max-width: 1500px;
+        border-radius: 5px;
+        justify-self: center;
+        margin-top: 2rem;
+    }
+
+#hunger-word {
+    grid-area: facts-sign;
+}
+
+#logo {
+    grid-area: logo;
+}
+
+.intro-text {
+    grid-area: facts-text;
+    margin: 0 2rem;
+    position: relative;
+}
+
+    .intro-text h1 {
+        color: #6E0E0A;
+        font-size: 2.5rem;
+    }
+
+.intro-text p {
+    margin: 0 3rem;
+    font-size: 1.2rem;
+    line-height: 2;
+}
+
+
+.social-media {
+    background: #6E0E0A;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 1rem;
+    border-radius: 8px;
+    grid-area: social-media;
+    max-width: 100%;
+    margin: 0 0 0 2rem;
+}
+
+    .social-media h3 {
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 1.5rem;
+        color: #BB9457;
+    }
+
+    .social-media p {
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 1.2rem;
+        color: #BB9457;
+    }
+
+.facebook-post {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.social-media-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+    .social-media-links a {
+        color: #023047;
+    }
+
+        .social-media-links a:hover {
+            color: #FB8500;
+        }
+
+
+
+.quick-facts {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    margin: 4rem auto 2rem auto;
+    color: #6E0E0A;
+    background: #BB9457;
+    border-radius: 5px;
+    padding: 2rem 0;
+ 
+}
+
+    .quick-facts h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .quick-facts h3 {
+        font-size: 3rem;
+        text-align: center;
+        margin: 1rem auto;
+    }
+
+    .quick-facts ul {
+        font-size: 1.2rem;
+        margin: 0 3rem;
+        line-height: 2rem;
+    }
+
+.facts-part1 {
+    background: #388697;
+    margin: 2rem auto;
+    border-radius: 5px;
+    color: #6E0E0A;
+    max-width: 70%;
+    padding-bottom: 1rem;
+}
+        .facts-part1 h1 {
+            padding: 2rem 3rem 0 3rem;
+            font-size: 2rem;
+        }
+        .facts-part1 h2,
+        .facts-part1 h3 {
+            color: #6E0E0A;
+            padding: 0 3rem;
+        }
+
+        .facts-part1 h2 {
+            font-size: 2rem;
+            text-align: left;
+            padding: 0 3rem;
+        }
+
+        .facts-part1 p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            padding: 0 4rem;
+        }
+
+        .facts-part1 ul {
+            padding: 0 6rem;
+            font-size: 1.2rem;
+            line-height: 1.2
+        }
+
+
+.facts-part2 {
+    background: #BB9457;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin: 2rem auto;
+    max-width: 70%;
+    color: #6E0E0A;
+    padding-bottom: 1rem;
+}
+
+        .facts-part2 h1 {
+            padding: 2rem 3rem 0 3rem;
+            font-size: 2rem;
+        }
+
+        .facts-part2 h2,
+        .facts-part2 h3 {
+            color: #6E0E0A;
+            padding: 0 3rem;
+        }
+
+        .facts-part2 h2 {
+            font-size: 1.6rem;
+            text-align: left;
+            padding: 0 3rem;
+        }
+
+        .facts-part2 p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            padding: 0 4rem;
+        }
+
+        .facts-part2 ul {
+            padding: 0 6rem;
+            font-size: 1.2rem;
+            line-height: 1.2
+}
+
+
+/* Footer */
+footer {
+    background-color: #F3EFF5;
+    color: white;
+    text-align: center;
+}
+
+    footer .partners {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        background: #F3EFF5;
+        gap: 2rem;
+        color: #6E0E0A;
+    }
+
+        footer .partners h2 {
+            color: #6E0E0A;
+            font-size: 1.5rem;
+        }
+
+        footer .partners .partner-imgs img {
+            max-width: 200px; /* Adjust based on your logo sizes */
+            margin: 0 10px;
+            padding-bottom: 2rem;
+        }
+
+    footer p {
+        background: #BB9457;
+        padding: 1.5rem 0;
+        margin: 0;
+        color: #6E0E0A;
+    }
+
+@media screen and (max-width: 768px) {
+    /* This affects the header layout, making the navigation vertical */
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* The hamburger menu icon repositions for easier access */
+    .hamburger-menu img {
+        margin: 0 auto; /* Centers the menu icon */
+    }
+
+    /* Adjust the main navigation to stack links vertically and to cover the full width of the viewport */
+    nav ul {
+        flex-direction: column;
+        width: 100%; /* Full-width navigation */
+        padding: 0; /* Removes padding to fit screen */
+    }
+
+    nav ul li {
+        text-align: center; /* Centers the text within each navigation item */
+    }
+
+    nav ul li a {
+        padding: 10px; /* Adds padding for a larger clickable area */
+        display: block; /* Makes the entire list item area clickable */
+    }
+
+    /* Grid layout changes for the main content */
+    .facts-div {
+        grid-template-columns: auto; /* Changes the layout to a single column */
+        grid-template-areas:
+            'logo'
+            'facts-sign'
+            'social-media'
+            'facts-text';
+    }
+
+    /* Adjustments to the logo and hunger word images to fit the new column layout */
+    #logo, #hunger-word {
+        width: 90%; /* Scales down the images to fit the single column layout */
+        margin: 0 auto; /* Centers the images within the grid area */
+        display: block;
+    }
+
+    /* Social media section scales down and changes layout */
+    .social-media {
+        margin: 0; /* Removes any margin to utilize space */
+        padding: 1rem; /* Adds padding inside the social media section */
+        padding-bottom: 2rem;
+        align-items: center; /* Aligns social media content centrally */
+    }
+
+    .social-media-links a {
+        width: 40px; /* Resizes social media icons to be smaller */
+        height: 40px; /* Resizes social media icons to be smaller */
+    }
+
+    /* Quick facts section adjustments for readability and spacing */
+    .quick-facts {
+        padding: 1rem; /* Adjusts padding to reduce spacing */
+        margin: 1rem auto; /* Adds margin around the section for space from the edges */
+    }
+
+    /* The intro-text, facts-part1, and facts-part2 sections adjust text size and padding */
+    .intro-text, .facts-part1, .facts-part2 {
+        font-size: 1rem; /* Decreases font size for better readability on smaller screens */
+        padding: 1rem; /* Adjusts padding for consistent spacing */
+    }
+
+    /* Adjusting the list items in quick facts, facts-part1, and facts-part2 */
+    .quick-facts ul, .facts-part1 ul, .facts-part2 ul {
+        padding-left: 20px; /* Gives some space for bullet points */
+    }
+
+    /* Footer adjustments to align partner logos and text */
+    footer .partners {
+        flex-direction: column; /* Stacks partner logos vertically */
+        align-items: center; /* Centers content */
+    }
+
+    footer .partners .partner-imgs img {
+        width: 150px; /* Scales down logo images */
+        margin: 1rem; /* Adds margin around logos */
+    }
+
+    footer p {
+        padding: 1rem; /* Adjusts padding for consistent spacing */
+    }
+
+    /* ... Any additional styles or overrides for elements specific to this breakpoint */
+}

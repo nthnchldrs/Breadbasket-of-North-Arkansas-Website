@@ -1,0 +1,449 @@
+﻿/* General Styles */
+body {
+    font-family: 'Special Elite', sans-serif;
+    padding: 0;
+    color: #F3EFF5;
+    margin: 0;
+}
+
+.special-elite-regular {
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Header */
+header {
+    background: #6E0E0A;
+    display: flex;
+    justify-content: right;
+    padding: 1rem;
+
+}
+
+.hamburger-menu {
+    display: flex;
+    justify-content: right;
+}
+
+.hamburger-menu img {
+    width: 30px; /* Adjust as necessary for your layout */
+    cursor: pointer;
+    margin-right: 2rem;
+}
+
+nav {
+    
+}
+nav ul {
+    display: none;
+    list-style: none;
+    gap: 20px;
+    background: #BB9457;
+    color: #6E0E0A;
+    padding: .5rem 1rem;
+    margin: 0;
+}
+
+    nav ul.show {
+        display: flex; /* Or 'display: block;', depending on your design */
+    }
+
+    nav ul li a {
+        text-decoration: underline;
+        font-weight: bold;
+        color: #6E0E0A;
+    }
+
+        nav ul li a:hover {
+            color: #c31912;
+        }
+
+
+/* Logo */
+.logo img {
+    display: block;
+    max-width: 40%;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* Carousel Slider */
+.carousel {
+    position: relative;
+    margin: 0 1rem;
+}
+
+    .carousel button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: #6E0E0A;
+        color: #BB9457;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+.prev {
+    left: 10px;
+    margin-left: 2rem;
+}
+
+.next {
+    right: 10px;
+    margin-right: 2rem;
+}
+
+.carousel-slides {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 100%;
+    background: #388697;
+    border-radius: 5px;
+   
+    
+}
+    .carousel-slides .slide {
+        display: none; /* Will be displayed by JavaScript */
+        margin: 2rem auto;
+        max-width: 33%;
+        justify-items: center;
+        text-align: center;
+    }
+    
+            .carousel-slides .slide img {
+               max-width: 100%;
+               height: auto;
+               max-height: 200px;
+               border-radius: 5px;
+            }
+
+        .carousel-slides .slide p {
+            color: #6E0E0A;
+            font-size: 1.5rem;
+        }
+
+.news-and-social {
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+/* News Section */
+.news {
+    display: grid;
+    background-color: #BB9457;
+    justify-items: center;
+    margin: 40px;
+    border-radius: 5px;
+}
+
+    .news h2 {
+        color: #6E0E0A;
+        font-size: 2rem;
+    }
+
+.news-item {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background: #6E0E0A;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 95%;
+}
+
+    .news-item img {
+        max-width: 100%;
+        height: auto;
+        grid-column: 1;
+    }
+
+    .news-text {
+        grid-column: 2;
+        padding: 10px;
+        align-content: center;
+        margin-left: 2rem;
+    }
+
+        .news-text h3 {
+            color: #BB9457;
+            grid-column: 2;
+            font-size: 1.5rem;
+        }
+
+        .news-text p {
+            color: #BB9457;
+            grid-column: 2;
+            font-size: 1rem;    
+        }
+
+        .news-text a {
+            color: #BB9457;
+            text-decoration: none;
+            grid-column: 2;
+        }
+
+/* Aside Styles */
+aside {
+    padding: 20px;
+    margin-top: 20px;
+    max-width: 350px;
+}
+
+.social-media {
+    background: #6E0E0A;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 8px;
+}
+
+    .social-media h3 {
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 1.5rem;
+        color: #BB9457;
+    }
+
+    .social-media p {
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 1.2rem;
+        color: #BB9457;
+    }
+
+.facebook-post {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+}
+
+.social-media-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+    .social-media-links a {
+        color: #023047;
+    }
+
+        .social-media-links a:hover {
+            color: #FB8500;
+        }
+
+/* Call to Action */
+.cta {
+    background-color: #388697;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 2rem 5rem;
+    border-radius: 5px;
+}
+    
+    .cta h2 {
+        color: #6E0E0A;
+        font-size: 2rem;
+    }
+
+    .cta p {
+        color: #6E0E0A;
+        font-size: 1.5rem;
+        margin: 0 2rem;
+    }
+
+    .cta button {
+        background-color: #BB9457 !important;
+        border: none;
+        padding: 10px 20px;
+        margin: 10px;
+        margin-top: 2rem;
+        color: #6E0E0A !important;
+        cursor: pointer;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+/* Video Section */
+.video {
+    text-align: center;
+    padding: 20px;
+}
+
+    .video iframe {
+        max-width: 100%;
+        border: none;
+    }
+
+/* Newsletter Section */
+.newsletter {
+    display: block;
+    background-color: #6E0E0A;
+    color: #BB9457;
+    padding: 20px;
+    text-align: center;
+    max-width: 50%;
+    margin: 2rem auto;
+    border-radius: 5px;
+}
+    .newsletter-form img {
+        max-width: 20%;
+        height: auto;
+        border-radius: 5px;
+    }
+    .newsletter-form {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        align-items: center;
+
+    }
+    .newsletter-form form {
+        margin: 20px 0;
+    }
+
+    .newsletter-form input[type="email"] {
+        padding: 10px;
+        margin-right: 10px;
+    }
+
+    .newsletter-form button {
+        background-color: #BB9457 !important;
+        border: none;
+        padding: 10px 20px;
+        color: #6E0E0A !important;
+        cursor: pointer;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+/* Footer */
+footer {
+    background-color: #F3EFF5;
+    color: white;
+    text-align: center;
+}
+    
+    footer .partners {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        background: #ffffff;
+        gap: 2rem;
+        color: #6E0E0A;
+    }
+
+    footer .partners h2 {
+        color: #6E0E0A;
+        font-size: 1.5rem;
+    }
+
+    footer .partners .partner-imgs img {
+        max-width: 200px; /* Adjust based on your logo sizes */
+        margin: 0 10px;
+        padding-bottom: 2rem;
+    }
+
+    footer p {
+        background: #BB9457;
+        padding: 1.5rem 0;
+        margin: 0;
+        color: #6E0E0A;
+    }
+
+/* Responsive design for small screens */
+@media screen and (max-width: 768px) {
+    /* Adjust header layout for smaller screens */
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hamburger-menu {
+        justify-content: center;
+        margin-right: 0;
+        margin-top: 0.5rem;
+    }
+
+    /* Ensure the logo scales down on smaller screens */
+    .logo img {
+        max-width: 80%; /* Adjust the logo size on smaller screens */
+    }
+
+    /* Make the navigation menu full width when displayed */
+    nav ul {
+        width: 100%;
+        flex-direction: column;
+        position: fixed;
+        top: 60px; /* Adjust based on your header's height */
+        left: 0;
+        z-index: 100;
+    }
+
+        nav ul li {
+            text-align: center; /* Center align the nav links */
+            width: 100%;
+        }
+
+    /* Adjust carousel slider for smaller screens */
+    .carousel-slides .slide {
+        max-width: 100%;
+        margin: 1rem auto;
+    }
+
+        .carousel-slides .slide img {
+            max-height: 150px; /* Adjust image height in the carousel */
+        }
+
+    /* Stack news and social sections instead of side by side */
+    .news-and-social {
+        grid-template-columns: 1fr;
+    }
+
+    /* Adjust news items layout */
+    .news-item {
+        grid-template-columns: 1fr; /* Make news items stack vertically */
+    }
+
+        .news-item img {
+            width: 80%; /* Adjust news image size */
+            margin: auto; /* Center-align the images */
+        }
+
+    .news-text {
+        margin: 1rem;
+    }
+
+    /* Call to Action adjustments */
+    .cta {
+        margin: 1rem; /* Adjust margins for CTA section */
+    }
+
+    /* Newsletter form adjustments */
+    .newsletter {
+        max-width: 90%; /* Make the newsletter section wider on small screens */
+    }
+
+    .newsletter-form {
+        flex-direction: column; /* Stack form elements vertically */
+    }
+
+        .newsletter-form img {
+            margin-bottom: 1rem; /* Add space above the form */
+        }
+
+        .newsletter-form button {
+            margin-top: 1rem; /* Add space below the email input */
+        }
+
+    /* Adjust footer layout */
+    footer .partners .partner-imgs img {
+        max-width: 100px; /* Make partner logos smaller on small screens */
+    }
+}

@@ -1,0 +1,246 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteer - The Breadbasket of North Arkansas</title>
+    <link rel="stylesheet" href="../css/volunteerStyles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+
+        <nav>
+            <!-- Hamburger menu for mobile view -->
+            <div class="hamburger-menu">
+                <img src="../assets/menu-icon.png" alt="Menu">
+            </div>
+            <!-- You'll insert the actual links and JavaScript to toggle the menu in mobile view -->
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="volunteer.html">Volunteer</a></li>
+                <li><a href="donation.html">Donate</a></li>
+                <li><a href="facts_about_hunger.html">Hunger Facts</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Main content starts here -->
+        <section class="volunteer-intro">
+            <div class="volunteer-div">
+                <img src="../assets/bbna_logo_background.png" alt="BBNA Logo" id="logo">
+                <img src="../assets/volunteers_working.jpg" alt="Volunteers working" id="volunteers-working">
+                <div class="social-media">
+                    <h3>Check out our socials!</h3>
+                    <div class="facebook-post">
+                        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">📢 Meet John, a dedicated volunteer from Conway High School, sharing a heartfelt message about the impact of your support on the 1 in 6 Arkansans facing hunger. Every gift you give isn&#39;t just a meal; it&#39;s hope for a brighter future. 🌟<br><br>Give Now: <a href="https://t.co/7moIvdxue8">https://t.co/7moIvdxue8</a> <a href="https://t.co/adKQoV8uVY">pic.twitter.com/adKQoV8uVY</a></p>&mdash; Arkansas Foodbank (@arfoodbank) <a href="https://twitter.com/arfoodbank/status/1775992547401207892?ref_src=twsrc%5Etfw">April 4, 2024</a></blockquote>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                    <p>Find us on:</p>
+                    <div class="social-media-links">
+                        <a href="https://www.facebook.com/arkansasfoodbank/" target="_blank">
+                            <img src="../assets/icons/facebook_logo.png" alt="Facebook" style="width: 50px; height: 50px;">
+                        </a>
+                        <a href="https://twitter.com/arfoodbank?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+                            <img src="../assets/icons/twitter_logo.png" alt="Twitter" style="width: 50px; height: 50px;">
+                        </a>
+                        <a href="https://www.instagram.com/arfoodbank/?hl=en" target="_blank">
+                            <img src="../assets/icons/instagram_logo.png" alt="Instagram" style="width: 50px; height: 50px;">
+                        </a>
+                    </div>
+                </div>
+                <div class="volunteer-text">
+                    <h1>Be the Change</h1>
+                    <p>Join the dedicated team of volunteers at The Breadbasket of North Arkansas and make a direct impact in the fight against hunger in our community. Whether you have a few hours a month or can commit more regularly, your time and talents can drive real change.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="volunteer-opportunities">
+            <h3>Volunteer Opportunities</h3>
+            <div class="urgent-needs">
+                <h2>Urgent Needs:</h2>
+                <p>Food Sorting and Packing: Help us organize and prepare donations for distribution.</p>
+                <p>Delivery Assistance: Deliver food directly to those in need, especially crucial for our homebound or elderly community members.</p>
+                <h2>Ongoing Volunteer Roles:</h2>
+                <p>Community Outreach: Represent The Breadbasket at local events and spread awareness about our mission.</p>
+                <p>Administrative Support: Assist with data entry, answering phones, and other office tasks.</p>
+                <p>Educational Programs: Assist in teaching nutritional classes or workshops.</p>
+            </div>
+
+            <div class="get-involved">
+                <h2>How to Get Involved</h2>
+                <h3>Step 1: Express Intrest</h3>
+                <p>Fill out our online form below to tell us a bit about yourself and your interest in volunteering.</p>
+                <h3>Step 2: Orientation</h3>
+                <p>Attend a volunteer orientation session to learn more about The Breadbasket's mission, or community impact, and specific volunteer roles.'</p>
+                <h3>Step 3: Start Volunteering</h3>
+                <p>Based on your interest and our needs, we'll match you with the best volunteer opportunities. From there, you're ready to make a difference.</p>
+                <button onclick="openModal('volunteerFormModal')" id="volunteer-now-button">Volunteer Now!</button>
+            </div>
+
+        </section>
+
+        <section class="why-volunteer">
+            <h2>Why Volunteer?</h2>
+            <p>Volunteering at The Breadbasket not only helps those in need but also enriches your own life. It’s a chance to:</p>
+            <ul>
+                <li>Connect with your community.</li>
+                <li>Build new skills and gain valuable experience.</li>
+                <li>Be part of a supportive and caring team.</li>
+                <li>Make a tangible impact in the fight against hunger.</li>
+            </ul>
+            <p>Ready to join us? Fill out the volunteer form today, and let’s start making a difference together.</p>
+        </section>
+
+        <!-- Other sections as per the wireframe -->
+    </main>
+
+    <footer>
+        <div class="partners">
+            <h2>We work closely with:</h2>
+            <div class="partner-imgs">
+                <img src="../assets/Logo+cropped+(2)-1920w.png" alt="Northwest Arkansas Foodbank">
+                <img src="../assets/Food+Bank+of+NEA+Logo_1.png" alt="Food Bank of NEA Logo">
+                <img src="../assets/SIZED-FOR-WEBSITE.jpg" alt="River Valley Regional Food Bank Logo">
+                <!-- Partner logos -->
+            </div>
+        </div>
+        <p>&copy; 2024 The Breadbasket of North Arkansas</p>
+    </footer>
+
+    <!-- Form Modal -->
+    <div id="volunteerFormModal" class="modal">
+        <div class="modal-content">
+
+            <section class="volunteer-form-section content-section">
+                <span class="close-button" onclick="closeModal('volunteerFormModal')">&times;</span>
+                <h2>Volunteer Interest Form</h2>
+                <form action="your-server-side-processing" method="POST" id="volunteer-interest-form">
+                    <div class="contact-info form-group">
+                        <div class="name-address">
+                            <label for="full-name">Full Name:</label>
+                            <input type="text" id="full-name" name="full_name" placeholder="Full Name" required>
+
+                            <label for="street-address">Street Address:</label>
+                            <input type="text" id="street-address" name="street_address" placeholder="Street Address" required>
+
+                            <label for="city">City:</label>
+                            <input type="text" id="city" name="city" placeholder="City" required>
+                            
+                            <label for="state">State:</label>
+                            <input type="text" id="state" name="state" placeholder="State" required>
+
+                            <label for="zipcode">Zipcode:</label>
+                            <input type="text" id="zipcode" name="zipcode" placeholder="Zipcode" required>
+                            
+                        </div>
+
+                        <div class="phone-email">
+                            <label for="phone">Phone:</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Phone">
+
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+
+                            <label for="confirm-email">Confirm Email:</label>
+                            <input type="email" id="confirm-email" name="confirm_email" placeholder="Confirm Email" required>
+                        </div>
+                    </div>
+
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="age-confirmation" name="age_confirmation" required>
+                        <label for="age-confirmation">Age Confirmation (14yr+)</label>
+                    </div>
+
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">I acknowledge I have read and accept the terms of the general liability waiver.</label>
+                    </div>
+
+                    <div class="form-group areas-of-interest">
+                        <label for="areas-of-interest">Areas of interest:</label>
+                        <input id="areas-of-interest" name="areas_of_interest" placeholder="Enter your areas of interest">
+                    </div>
+
+                    <div class="form-group">
+                        <fieldset>
+                            <legend>Availability:</legend>
+                            <div class="availability-grid">
+                                <div class="availability-day">
+                                    <label for="monday-morning">Monday:</label>
+                                    <input type="checkbox" id="monday-morning" name="availability_monday_morning">
+                                    <label for="monday-morning">Morning <br>(7am - 12pm)</label>
+                                    <input type="checkbox" id="monday-afternoon" name="availability_monday_afternoon">
+                                    <label for="monday-afternoon">Afternoon <br>(12pm - 6pm)</label>
+                                </div>
+                                <div class="availability-day">
+                                    <label for="tuesday-morning">Tuesday:</label>
+                                    <input type="checkbox" id="tuesday-morning" name="availability_tuesday_morning">
+                                    <label for="tuesday-morning">Morning <br>(7am - 12pm)</label>
+                                    <input type="checkbox" id="tuesday-afternoon" name="availability_tuesday_afternoon">
+                                    <label for="tuesday-afternoon">Afternoon <br>(12pm - 6pm)</label>
+                                </div>
+                                <div class="availability-day">
+                                    <label for="wednesday-morning">Wednesday:</label>
+                                    <input type="checkbox" id="wednesday-morning" name="availability_wednesday_morning">
+                                    <label for="wednesday-morning">Morning <br>(7am - 12pm)</label>
+                                    <input type="checkbox" id="wednesday-afternoon" name="availability_wednesday_afternoon">
+                                    <label for="wednesday-afternoon">Afternoon <br>(12pm - 6pm)</label>
+                                </div>
+                                <div class="availability-day">
+                                    <label for="thursday-morning">Thursday:</label>
+                                    <input type="checkbox" id="thursday-morning" name="availability_thursday_morning">
+                                    <label for="thursday-morning">Morning <br>(7am - 12pm)</label>
+                                    <input type="checkbox" id="thursday-afternoon" name="availability_thursday_afternoon">
+                                    <label for="thursday-afternoon">Afternoon <br>(12pm - 6pm)</label>
+                                </div>
+                                <div class="availability-day">
+                                    <label for="friday-morning">Friday:</label>
+                                    <input type="checkbox" id="friday-morning" name="availability_friday_morning">
+                                    <label for="friday-morning">Morning <br>(7am - 12pm)</label>
+                                    <input type="checkbox" id="friday-afternoon" name="availability_friday_afternoon">
+                                    <label for="friday-afternoon">Afternoon <br>(12pm - 6pm)</label>
+                                </div>
+                                <div class="availability-day">
+                                    <label for="saturday-morning">Saturday:</label>
+                                    <input type="checkbox" id="saturday-morning" name="availability_saturday_morning">
+                                    <label for="saturday-morning">Morning <br>(7am - 12pm)</label>
+                                    <input type="checkbox" id="saturday-afternoon" name="availability_saturday_afternoon">
+                                    <label for="saturday-afternoon">Afternoon <br>(12pm - 6pm)</label>
+                                </div>
+                                <div class="availability-day">
+                                    <label for="sunday-morning">Sunday:</label>
+                                    <input type="checkbox" id="sunday-morning" name="availability_sunday_morning">
+                                    <label for="sunday-morning">Morning <br>(7am - 12pm)</label>
+                                    <input type="checkbox" id="sunday-afternoon" name="availability_sunday_afternoon">
+                                    <label for="sunday-afternoon">Afternoon <br>(12pm - 6pm)</label>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+                    <button type="submit" id="submitButton" name="Submit">Submit</button>
+                </form>
+            </section>
+        </div>
+    </div>
+
+    <!-- Thank You Modal -->
+    <div id="thankYouModal" class="modal">
+        <div class="thank-you-modal">
+            <span class="close-button" onclick="closeModal('thankYouModal')">&times;</span>
+            <h2>Thank You!</h2>
+            <p>Your offer to volunteer with The Breadbasket of North Arkansas fills us with gratitude. Thank you for choosing to dedicate your time and talents to help fight hunger in our community. Volunteers like you are the heartbeat of our mission, and together, we can make a significant impact. Your willingness to help is what keeps our community strong and resilient. Thank you again for stepping up and being willing to make a difference. We’re thrilled to welcome you to The Breadbasket family and can’t wait to start this journey together.</p>
+            <button type="button" onclick="closeModal('thankYouModal')">Close</button>
+        </div>
+    </div>
+
+    <!-- Link to your JavaScript file -->
+    <script src="../js/volunteerScripts.js"></script>
+</body>
+</html>

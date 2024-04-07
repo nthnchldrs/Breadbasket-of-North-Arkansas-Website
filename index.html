@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Breadbasket of North Arkansas</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0&appId=365653965827649" nonce="A18tzm6p"></script>
+
+    <header>
+
+        <nav>
+            <!-- Hamburger menu for mobile view -->
+            <div class="hamburger-menu">
+                <img src="assets/menu-icon.png" alt="Menu">
+            </div>
+            <!-- You'll insert the actual links and JavaScript to toggle the menu in mobile view -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pages/volunteer.html">Volunteer</a></li>
+                <li><a href="pages/donation.html">Donate</a></li>
+                <li><a href="pages/facts_about_hunger.html">Hunger Facts</a></li>
+                <li><a href="pages/about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="logo">
+        <img src="assets/bbna_logo.png" alt="The Breadbasket of North Arkansas Logo">
+    </div>
+
+    <!-- Carousel Slider -->
+    <section class="carousel">
+        <button class="prev" onclick="moveSlide(-1)"><</button>
+        <div class="carousel-slides">
+            <!-- Add your slides here -->
+            <div class="slide">
+                <img src="assets/slide1.jpg" alt="Volunteers">
+                <p>Volunteers assist in providing food to over 300 families each month.</p>
+            </div>
+
+            <div class="slide">
+                <img src="assets/slide2.jpg" alt="Volunteers">
+                <p>Volunteering is a great way to find purpose in life.</p>
+            </div>
+
+            <div class="slide">
+                <img src="assets/slide3.jpg" alt="Volunteers">
+                <p>Many people only recieve the nutrition they need through donations.</p>
+            </div>
+            <!-- Repeat slide structure for each item -->
+        </div>
+        <button class="next" onclick="moveSlide(1)">></button>
+    </section>
+
+    <div class="news-and-social">
+        <!-- News Section -->
+        <section class="news" id="news">
+            <h2>Food Bank News Across the State</h2>
+            <!-- News Article -->
+            <article class="news-item">
+                <img src="assets/news1.webp" alt="News Title">
+                <div class="news-text">
+                    <h3>Serving Hope | Spring 2024</h3>
+                    <p>Spring update from the Arkansas Food Bank</p>
+                    <a href="https://arkansasfoodbank.org/serving-hope-spring-2024/">Read more</a>
+                </div>
+            </article>
+
+            <article class="news-item">
+                <img src="assets/news2.webp" alt="News Title">
+                <div class="news-text">
+                    <h3>Celebrating 40 Years of Fighting Hunger</h3>
+                    <p>The Arkansas Foodbank, the largest food bank in the...</p>
+                    <a href="https://arkansasfoodbank.org/celebrating-40-years-of-fighting-hunger/">Read more</a>
+                </div>
+            </article>
+
+            <article class="news-item">
+                <img src="assets/news3.jpg" alt="News Title">
+                <div class="news-text">
+                    <h3>Food banks, pantries in Arkansas strive to meet need despite cold weather</h3>
+                    <p>As Arkansas shakes off the most recent round of winter weather...</p>
+                    <a href="https://www.arkansasonline.com/news/2024/jan/17/food-banks-pantries-in-arkansas-strive-to-meet/#:~:text=Despite%20these%20challenges%2C%20the%20Arkansas,programs%20officer%20for%20the%20organization.">Read more</a>
+                </div>
+            </article>
+            <!-- Repeat for other news articles -->
+        </section>
+
+        <aside>
+            <!-- Placeholder for news/social media feed -->
+            <div class="social-media">
+                <h3>Check out our socials!</h3>
+                <div class="facebook-post">
+                    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">📢 Meet John, a dedicated volunteer from Conway High School, sharing a heartfelt message about the impact of your support on the 1 in 6 Arkansans facing hunger. Every gift you give isn&#39;t just a meal; it&#39;s hope for a brighter future. 🌟<br><br>Give Now: <a href="https://t.co/7moIvdxue8">https://t.co/7moIvdxue8</a> <a href="https://t.co/adKQoV8uVY">pic.twitter.com/adKQoV8uVY</a></p>&mdash; Arkansas Foodbank (@arfoodbank) <a href="https://twitter.com/arfoodbank/status/1775992547401207892?ref_src=twsrc%5Etfw">April 4, 2024</a></blockquote>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">🌟 LAST CHANCE TO GIVE! 🌟 With Arkansas ranking highest in food insecurity, your donation today will make a BIG difference. Every gift today is matched to provide 2X the meals, but you have to make it before the clock strikes midnight! ⏰<br><br>Give Now 🧡: <a href="https://t.co/7moIvdxue8">https://t.co/7moIvdxue8</a> <a href="https://t.co/ESaCj4DRdF">pic.twitter.com/ESaCj4DRdF</a></p>&mdash; Arkansas Foodbank (@arfoodbank) <a href="https://twitter.com/arfoodbank/status/1776022089612304435?ref_src=twsrc%5Etfw">April 4, 2024</a></blockquote>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+                <p>Find us on:</p>
+                <div class="social-media-links">
+                    <a href="https://www.facebook.com/arkansasfoodbank/" target="_blank">
+                        <img src="assets/icons/facebook_logo.png" alt="Facebook" style="width: 50px; height: 50px;">
+                    </a>
+                    <a href="https://twitter.com/arfoodbank?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+                        <img src="assets/icons/twitter_logo.png" alt="Twitter" style="width: 50px; height: 50px;">
+                    </a>
+                    <a href="https://www.instagram.com/arfoodbank/?hl=en" target="_blank">
+                        <img src="assets/icons/instagram_logo.png" alt="Instagram" style="width: 50px; height: 50px;">
+                    </a>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Call-to-Action Section -->
+    <section class="cta">
+        <h2>Help your fellow Arkansans today!</h2>
+        <p>The Breadbasket of North Arkansas is in constant need of donations to provide sustenance to those in need. We also provide opportunities for individuals to volunteer and assist by taking action in the community!</p>
+        <button id="donate">Donate Today!</button>
+        <button id="volunteer">Volunteer Now!</button>
+    </section>
+
+    <!-- Embedded YouTube Video -->
+    <section class="video">
+        <h2>Join the fight against hunger!</h2>
+        <!-- Replace with the actual YouTube embed code -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ikl2nWlBmEc?si=A4ppAYCm6ro3xsV6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <!-- Newsletter Subscription Form -->
+    <section class="newsletter">
+        <h2>Subscribe to our newsletter</h2>
+        <div class="newsletter-form">
+            <img src="assets/bbna_logo_background.png" alt="BBNA Logo" />
+            <form action="your-subscription-script" method="post">
+                <input type="email" name="email" placeholder="Email">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="partners">
+            <h2>We work closely with:</h2>
+            <div class="partner-imgs">
+                <img src="assets/Logo+cropped+(2)-1920w.png" alt="Northwest Arkansas Foodbank">
+                <img src="assets/Food+Bank+of+NEA+Logo_1.png" alt="Food Bank of NEA Logo">
+                <img src="assets/SIZED-FOR-WEBSITE.jpg" alt="River Valley Regional Food Bank Logo">
+                <!-- Partner logos -->
+            </div>
+        </div>
+        <p>&copy; 2024 The Breadbasket of North Arkansas</p>
+    </footer>
+
+
+    <script src="js/scripts.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,229 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate - The Breadbasket of North Arkansas</title>
+    <link rel="stylesheet" href="../css/donationStyles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+
+        <nav>
+            <!-- Hamburger menu for mobile view -->
+            <div class="hamburger-menu">
+                <img src="../assets/menu-icon.png" alt="Menu">
+            </div>
+            <!-- You'll insert the actual links and JavaScript to toggle the menu in mobile view -->
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="volunteer.html">Volunteer</a></li>
+                <li><a href="donation.html">Donate</a></li>
+                <li><a href="facts_about_hunger.html">Hunger Facts</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Main content starts here -->
+        <section class="donation-intro">
+            <div class="donation-div">
+                <img src="../assets/bbna_logo_background.png" alt="BBNA Logo" id="logo">
+                <img src="../assets/donation_sign.jpg" alt="Donation sign on table" id="donation-sign">
+                <div class="social-media">
+                    <h3>Check out our socials!</h3>
+                    <div class="facebook-post">
+                        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">📢 Meet John, a dedicated volunteer from Conway High School, sharing a heartfelt message about the impact of your support on the 1 in 6 Arkansans facing hunger. Every gift you give isn&#39;t just a meal; it&#39;s hope for a brighter future. 🌟<br><br>Give Now: <a href="https://t.co/7moIvdxue8">https://t.co/7moIvdxue8</a> <a href="https://t.co/adKQoV8uVY">pic.twitter.com/adKQoV8uVY</a></p>&mdash; Arkansas Foodbank (@arfoodbank) <a href="https://twitter.com/arfoodbank/status/1775992547401207892?ref_src=twsrc%5Etfw">April 4, 2024</a></blockquote>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                    <p>Find us on:</p>
+                    <div class="social-media-links">
+                        <a href="https://www.facebook.com/arkansasfoodbank/" target="_blank">
+                            <img src="../assets/icons/facebook_logo.png" alt="Facebook" style="width: 50px; height: 50px;">
+                        </a>
+                        <a href="https://twitter.com/arfoodbank?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+                            <img src="../assets/icons/twitter_logo.png" alt="Twitter" style="width: 50px; height: 50px;">
+                        </a>
+                        <a href="https://www.instagram.com/arfoodbank/?hl=en" target="_blank">
+                            <img src="../assets/icons/instagram_logo.png" alt="Instagram" style="width: 50px; height: 50px;">
+                        </a>
+                    </div>
+                </div>
+                <div class="donation-text">
+                    <h1>Make a Difference Today</h1>
+                    <p>Your generosity helps The Breadbasket of North Arkansas feed families, fuel hope, and foster community. Every donation, big or small, supports our mission to combat hunger and provide resources for individuals and families in need.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="ways-to-donate">
+            <h3>Ways to Donate:</h3>
+            <div class="donate-funds">
+                <h2>Donate Funds</h2>
+                <p>Online: Donate with your debit or credit card today!</p>
+                <button onclick="openModal('paymentModal')" id="donate-now-button">Donate Now!</button>
+                <p>By Mail: Send your check to the listed address, making it payable to "The Breadbasket of North Arkansas"</p>
+                <p>Matching Gifts: Double your impact! Check if your employer offers a matching gift program.</p>
+            </div>
+
+            <div class="donate-food">
+                <h2>Donate Food</h2>
+                <p>Drop Off: Bring non-perishable food items to our location at [address]. See our list of most needed items below.</p>
+                <p>Host a Food Drive: Rally your community to collect essential food items. Contact us for a starter kit and support.</p>
+
+                <h2>Why Your Donation Matters</h2>
+                <p>Your contribution supports our comprehensive efforts to address hunger in North Arkansas. It allows us to:</p>
+                <ul>
+                    <li>Purchase and distribute nutritious food.</li>
+                    <li>Run programs that educate and empower our community.</li>
+                    <li>Provide emergency food assistance to families in crisis.</li>
+                </ul>
+
+                <h2>What Can Be Donated</h2>
+                <p>Most Needed Items:</p>
+                <ul>
+                    <li>Canned fruits and vegetables</li>
+                    <li>Whole grain pasta and rice</li>
+                    <li>Non-perishable protein sources (peanut butter, canned tuna)</li>
+                    <li>Baby formula and diapers</li>
+                </ul>
+
+                <p>Please Note: We cannot accept open packages, homemade items, or products beyond their expiration date.</p>
+
+                <h2>The Bill Emerson Good Samaritan Food Donation Act</h2>
+                <p>Learn about the federal law that encourages food donation by offering donors liability protection. <a href="https://www.foodtodonate.com/legal-liabilities">Read more</a></p>
+            </div>
+
+            <!-- You can add more sections for other types of donations like time, goods, etc. -->
+        </section>
+
+        <section class="questions">
+            <h2>Questions?</h2>
+            <p>If you have questions about donating or need assistance,<br /> please contact us at support@BreadbasketNA.com, or call 1-870-555-5432</p>
+        </section>
+
+        <!-- Other sections as per the wireframe -->
+    </main>
+
+    <footer>
+        <div class="partners">
+            <h2>We work closely with:</h2>
+            <div class="partner-imgs">
+                <img src="../assets/Logo+cropped+(2)-1920w.png" alt="Northwest Arkansas Foodbank">
+                <img src="../assets/Food+Bank+of+NEA+Logo_1.png" alt="Food Bank of NEA Logo">
+                <img src="../assets/SIZED-FOR-WEBSITE.jpg" alt="River Valley Regional Food Bank Logo">
+                <!-- Partner logos -->
+            </div>
+        </div>
+        <p>&copy; 2024 The Breadbasket of North Arkansas</p>
+    </footer>
+
+    <!-- Payment Modal -->
+    <div id="paymentModal" class="modal">
+        <div class="modal-content">
+            
+            <section class="donation-form-section content-section">
+                <span class="close-button" onclick="closeModal('paymentModal')">&times;</span>
+                <h2>How to donate:</h2>
+                <p>Choose how you'd like to contribute. Select one of our ‘quick’ donation options for convenience, or specify an amount that you're comfortable with. Every contribution, no matter the size, makes a difference.</p>
+                <form action="your-server-side-processing" method="POST" id="donation-form">
+                    <fieldset>
+                        <legend>I. Contact Information</legend>
+                        <label for="full-name">Full Name:</label>
+                        <input type="text" id="full-name" name="full_name" placeholder="Full Name" required>
+
+                        <label for="address">Street Address:</label>
+                        <input type="text" id="address" name="address" placeholder="Street Address" required>
+
+                        <label for="city">City:</label>
+                        <input type="text" id="city" name="city" placeholder="City" required>
+
+                        <label for="state">State:</label>
+                        <input type="text" id="state" name="state" placeholder="State" required>
+
+                        <label for="zipcode">Zipcode:</label>
+                        <input type="text" id="zipcode" name="zipcode" placeholder="Zipcode" required>
+
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Phone">
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+
+                        <label for="confirm-email">Confirm Email:</label>
+                        <input type="email" id="confirm-email" name="confirm_email" placeholder="Confirm Email" required>
+                    </fieldset>
+
+                    <fieldset class="payment-info">
+                        <legend>II. Payment Information</legend>
+                        <label for="card-name">Name on card:</label>
+                        <input type="text" id="card-name" name="card_name" placeholder="Name on card" required>
+
+                        <label for="card-number">Credit Card Number:</label>
+                        <input type="text" id="card-number" name="card_number" placeholder="Credit Card Number" required>
+
+                        <label for="issuer">Issuer:</label>
+                        <select id="issuer" name="issuer">
+                            <option value="visa">Visa</option>
+                            <option value="mastercard">MasterCard</option>
+                            <option value="amex">American Express</option>
+                            <option value="discover">Discover</option>
+                        </select>
+
+                        <label for="cvv">CVV:</label>
+                        <input type="text" id="cvv" name="cvv" placeholder="CVV" required>
+
+                        <div class="payment-options">
+                            <p>or make a Donation with:</p>
+                            <a href="https://www.westernunion.com/us/en/home.html">
+                                <img src="../assets/icons/western-union-curved-64px.png" />
+                            </a>
+                            <a href="https://pay.google.com/about/pay-online/">
+                                <img src="../assets/icons/google-checkout-curved-64px.png" />
+                            </a>
+                            <a href="https://www.paypal.com/signin">
+                                <img src="../assets/icons/paypal-curved-64px.png" />
+                            </a>
+
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>III. Select Donation Amount</legend>
+                        <div class="donation-amounts">
+                            <button type="button" name="donation" value="10.00">$10.00</button>
+                            <button type="button" name="donation" value="25.00">$25.00</button>
+                            <button type="button" name="donation" value="50.00">$50.00</button>
+                            <button type="button" name="donation" value="100.00">$100.00</button>
+                            <button type="button" name="donation" value="250.00">$250.00</button>
+                        </div>
+                        <label for="custom-amount">Enter Custom Amount:</label>
+                        <input type="text" id="custom-amount" name="custom_amount" placeholder="Custom Amount"  required>
+                    </fieldset>
+                    <div class="donate-button">
+                        <button type="submit" id="donateButton" name="Donate!" onsubmit="closeModal('paymentModal') openModal('thankYouModal')">Donate!</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </div>
+
+    <!-- Thank You Modal -->
+    <div id="thankYouModal" class="modal">
+        <div class="thank-you-modal">
+            <span class="close-button" onclick="closeModal('thankYouModal')">&times;</span>
+            <h2>Thank You!</h2>
+            <p>Your donation is greatly appreciated.</p>
+            <button type="button" onclick="closeModal('thankYouModal')">Close</button>
+        </div>
+    </div>
+
+    <!-- Link to your JavaScript file -->
+    <script src="../js/donationScripts.js"></script>
+</body>
+</html>
