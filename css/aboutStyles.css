@@ -283,6 +283,14 @@ footer {
     text-align: left;
     font-size: 1.2rem;
 }
+    
+    .contact-info li {
+        margin: 0.8rem 0;
+    }
+
+    .contact-info span {
+        padding: 1rem;
+    }
 
     .contact-info h2,
     .contact-form h2 {
